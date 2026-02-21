@@ -1,0 +1,4 @@
+Armtest is a small program running on an Arduino which provides a drive signal to PWM controlled
+servos. 
+The control input is from a serial input in teh format x,y where x is teh number of the servo to be controlled, and y is the set angle. 
+Movement to the set angle is at a measured pace, not immeadiately. 
